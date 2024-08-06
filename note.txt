@@ -1,0 +1,15 @@
+download pscp fron putty site then past in c:/
+then 
+c:\pscp D:\repo\ched\main root@84.47.239.231:/var/www/atlex.ir/go/
+
+
+go in linux
+
+
+go env GOOS GOARCH
+
+$env:GOOS = "linux"
+$env:GOARCH = "amd64"
+
+go env GOOS GOARCH
+go build 
